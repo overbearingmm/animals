@@ -15,7 +15,7 @@
 					</div>
 					<div class="photo">
 						<img v-if='u.userface && u.userface.indexOf("http")>=0' :src="u.userface" alt="">
-						<img v-else :src='"http://39.108.81.60:8888/group1/"+u.userface' alt="">
+						<img v-else :src='"http://134.175.154.93:8888/group1/"+u.userface' alt="">
 					</div>
 					<div class="info"> 
 						<div>用户名</div> <div>{{u.username}}</div>
@@ -188,7 +188,7 @@
 					} else {
 						this.userDialog.fileList = [{
 							name:u.userface,
-							url:'http://39.108.81.60:8888/group1/'+u.userface
+							url:'http://134.175.154.93:8888/group1/'+u.userface
 						}]
 					}
 				}
